@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A8DFB2421A2B73700A9B965 /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DFB1C21A2B73700A9B965 /* arrow@2x.png */; };
+		5A8DFB2521A2B73700A9B965 /* UIView+YDRefreshExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DFB1E21A2B73700A9B965 /* UIView+YDRefreshExtension.m */; };
+		5A8DFB2621A2B73700A9B965 /* YDRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DFB2021A2B73700A9B965 /* YDRefresh.m */; };
+		5A8DFB2721A2B73700A9B965 /* YDRefreshBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DFB2221A2B73700A9B965 /* YDRefreshBase.m */; };
+		5A8DFB2D21A2B81C00A9B965 /* YDMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DFB2C21A2B81C00A9B965 /* YDMainController.m */; };
+		5A8DFB3921A2B89F00A9B965 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DFB3021A2B89F00A9B965 /* main.m */; };
+		5A8DFB3C21A2B89F00A9B965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DFB3621A2B89F00A9B965 /* Assets.xcassets */; };
+		5A8DFB3D21A2B89F00A9B965 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DFB3721A2B89F00A9B965 /* AppDelegate.m */; };
+		5A8DFB3F21A2BA6200A9B965 /* YDRefreshInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DFB3E21A2BA6200A9B965 /* YDRefreshInfo.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A8DFB0121A2B6DB00A9B965 /* YDRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8DFB1C21A2B73700A9B965 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
+		5A8DFB1D21A2B73700A9B965 /* UIView+YDRefreshExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YDRefreshExtension.h"; sourceTree = "<group>"; };
+		5A8DFB1E21A2B73700A9B965 /* UIView+YDRefreshExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YDRefreshExtension.m"; sourceTree = "<group>"; };
+		5A8DFB1F21A2B73700A9B965 /* YDRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDRefresh.h; sourceTree = "<group>"; };
+		5A8DFB2021A2B73700A9B965 /* YDRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDRefresh.m; sourceTree = "<group>"; };
+		5A8DFB2121A2B73700A9B965 /* YDRefreshBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDRefreshBase.h; sourceTree = "<group>"; };
+		5A8DFB2221A2B73700A9B965 /* YDRefreshBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDRefreshBase.m; sourceTree = "<group>"; };
+		5A8DFB2321A2B73700A9B965 /* YDRefreshConmmon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDRefreshConmmon.h; sourceTree = "<group>"; };
+		5A8DFB2B21A2B81C00A9B965 /* YDMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDMainController.h; sourceTree = "<group>"; };
+		5A8DFB2C21A2B81C00A9B965 /* YDMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDMainController.m; sourceTree = "<group>"; };
+		5A8DFB2E21A2B89F00A9B965 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A8DFB3021A2B89F00A9B965 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A8DFB3621A2B89F00A9B965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A8DFB3721A2B89F00A9B965 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A8DFB3E21A2BA6200A9B965 /* YDRefreshInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = YDRefreshInfo.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A8DFAFE21A2B6DB00A9B965 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A8DFAF821A2B6DB00A9B965 = {
+			isa = PBXGroup;
+			children = (
+				5A8DFB0321A2B6DB00A9B965 /* YDRefresh */,
+				5A8DFB0221A2B6DB00A9B965 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A8DFB0221A2B6DB00A9B965 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DFB0121A2B6DB00A9B965 /* YDRefresh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A8DFB0321A2B6DB00A9B965 /* YDRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DFB1A21A2B73700A9B965 /* YDRefresh */,
+				5A8DFB2821A2B79D00A9B965 /* Class */,
+			);
+			path = YDRefresh;
+			sourceTree = "<group>";
+		};
+		5A8DFB1A21A2B73700A9B965 /* YDRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DFB1B21A2B73700A9B965 /* Resource */,
+				5A8DFB1D21A2B73700A9B965 /* UIView+YDRefreshExtension.h */,
+				5A8DFB1E21A2B73700A9B965 /* UIView+YDRefreshExtension.m */,
+				5A8DFB2321A2B73700A9B965 /* YDRefreshConmmon.h */,
+				5A8DFB1F21A2B73700A9B965 /* YDRefresh.h */,
+				5A8DFB2021A2B73700A9B965 /* YDRefresh.m */,
+				5A8DFB2121A2B73700A9B965 /* YDRefreshBase.h */,
+				5A8DFB2221A2B73700A9B965 /* YDRefreshBase.m */,
+			);
+			path = YDRefresh;
+			sourceTree = "<group>";
+		};
+		5A8DFB1B21A2B73700A9B965 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DFB1C21A2B73700A9B965 /* arrow@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		5A8DFB2821A2B79D00A9B965 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DFB2A21A2B7F500A9B965 /* Controller */,
+				5A8DFB2921A2B7CE00A9B965 /* AppDelegate */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		5A8DFB2921A2B7CE00A9B965 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DFB2E21A2B89F00A9B965 /* AppDelegate.h */,
+				5A8DFB3721A2B89F00A9B965 /* AppDelegate.m */,
+				5A8DFB3E21A2BA6200A9B965 /* YDRefreshInfo.plist */,
+				5A8DFB3621A2B89F00A9B965 /* Assets.xcassets */,
+				5A8DFB3021A2B89F00A9B965 /* main.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		5A8DFB2A21A2B7F500A9B965 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DFB2B21A2B81C00A9B965 /* YDMainController.h */,
+				5A8DFB2C21A2B81C00A9B965 /* YDMainController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A8DFB0021A2B6DB00A9B965 /* YDRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A8DFB1721A2B6DC00A9B965 /* Build configuration list for PBXNativeTarget "YDRefresh" */;
+			buildPhases = (
+				5A8DFAFD21A2B6DB00A9B965 /* Sources */,
+				5A8DFAFE21A2B6DB00A9B965 /* Frameworks */,
+				5A8DFAFF21A2B6DB00A9B965 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YDRefresh;
+			productName = YDRefresh;
+			productReference = 5A8DFB0121A2B6DB00A9B965 /* YDRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A8DFAF921A2B6DB00A9B965 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = rowena;
+				TargetAttributes = {
+					5A8DFB0021A2B6DB00A9B965 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5A8DFAFC21A2B6DB00A9B965 /* Build configuration list for PBXProject "YDRefresh" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A8DFAF821A2B6DB00A9B965;
+			productRefGroup = 5A8DFB0221A2B6DB00A9B965 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A8DFB0021A2B6DB00A9B965 /* YDRefresh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A8DFAFF21A2B6DB00A9B965 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8DFB3F21A2BA6200A9B965 /* YDRefreshInfo.plist in Resources */,
+				5A8DFB2421A2B73700A9B965 /* arrow@2x.png in Resources */,
+				5A8DFB3C21A2B89F00A9B965 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A8DFAFD21A2B6DB00A9B965 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8DFB3921A2B89F00A9B965 /* main.m in Sources */,
+				5A8DFB2D21A2B81C00A9B965 /* YDMainController.m in Sources */,
+				5A8DFB3D21A2B89F00A9B965 /* AppDelegate.m in Sources */,
+				5A8DFB2521A2B73700A9B965 /* UIView+YDRefreshExtension.m in Sources */,
+				5A8DFB2621A2B73700A9B965 /* YDRefresh.m in Sources */,
+				5A8DFB2721A2B73700A9B965 /* YDRefreshBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5A8DFB1521A2B6DC00A9B965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A8DFB1621A2B6DC00A9B965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A8DFB1821A2B6DC00A9B965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45Q4N5684Q;
+				INFOPLIST_FILE = "$(SRCROOT)/YDRefresh/Class/AppDelegate/YDRefreshInfo.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weixin.wuyezhiguhun.YDRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5A8DFB1921A2B6DC00A9B965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45Q4N5684Q;
+				INFOPLIST_FILE = "$(SRCROOT)/YDRefresh/Class/AppDelegate/YDRefreshInfo.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weixin.wuyezhiguhun.YDRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A8DFAFC21A2B6DB00A9B965 /* Build configuration list for PBXProject "YDRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A8DFB1521A2B6DC00A9B965 /* Debug */,
+				5A8DFB1621A2B6DC00A9B965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A8DFB1721A2B6DC00A9B965 /* Build configuration list for PBXNativeTarget "YDRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A8DFB1821A2B6DC00A9B965 /* Debug */,
+				5A8DFB1921A2B6DC00A9B965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A8DFAF921A2B6DB00A9B965 /* Project object */;
+}
