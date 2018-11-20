@@ -9,8 +9,9 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/wangyund/YDRefresh.git', :tag => s.version, :submodules => true }
   s.requires_arc = true
   
-  s.public_header_files = 'YDRefresh/.{h}'
-  s.source_files = 'YDRefresh/*/.{h,m,png}'
+  s.public_header_files = 'YDRefresh/*.{h}'
+  s.source_files = 'YDRefresh/*.{h,m}'
+  s.resource = 'YDRefresh/Resource/*.{png}'
   
 
 end
